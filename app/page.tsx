@@ -244,8 +244,8 @@ export default function Home() {
               style={{ background: 'linear-gradient(135deg, #e63946, #c1121f)' }}>
               📡
             </div>
-            <span className="text-lg font-bold" style={{ fontFamily: 'Georgia, serif', letterSpacing: '-0.03em' }}>
-              Stream<span style={{ color: '#e63946' }}>Scope</span>
+            <span className="text-xl tracking-wide" style={{ fontFamily: 'var(--font-bebas)' }}>
+              STREAM<span style={{ color: '#e63946' }}>SCOPE</span>
             </span>
           </div>
 
@@ -409,7 +409,7 @@ export default function Home() {
                     {selectedTitle.media_type === 'tv' ? 'TV Series' : 'Movie'}
                   </span>
                 </div>
-                <h1 className="text-3xl font-bold mb-3 leading-tight" style={{ fontFamily: 'Georgia, serif' }}>
+                <h1 className="text-3xl font-bold mb-3 leading-tight" style={{ fontFamily: 'var(--font-playfair)' }}>
                   {selectedTitle.title || selectedTitle.name}
                 </h1>
                 <div className="flex items-center gap-3 mb-3">
@@ -609,7 +609,7 @@ export default function Home() {
                       {heroItem.media_type === 'tv' ? 'TV Series' : 'Movie'} · {selectedCountry?.name}
                     </span>
                   </div>
-                  <h1 className="font-bold mb-4 leading-tight" style={{ fontFamily: 'Georgia, serif', fontSize: 'clamp(28px, 5vw, 52px)' }}>
+                  <h1 className="font-bold mb-4 leading-tight" style={{ fontFamily: 'var(--font-playfair)', fontSize: 'clamp(28px, 5vw, 52px)' }}>
                     {heroItem.title || heroItem.name}
                   </h1>
                   <div className="flex items-center gap-3 mb-4">
@@ -782,7 +782,7 @@ export default function Home() {
             {newThisMonth.length > 0 && (
               <div className="mt-14">
                 <div className="flex items-center gap-2 mb-5">
-                  <h2 className="text-lg font-bold" style={{ fontFamily: 'Georgia, serif' }}>New This Month</h2>
+                  <h2 className="text-lg font-bold" style={{ fontFamily: 'var(--font-playfair)' }}>New This Month</h2>
                   <span className="text-xs px-2 py-0.5 rounded-full font-medium"
                     style={{ background: 'rgba(230,57,70,0.12)', color: '#e63946', border: '1px solid rgba(230,57,70,0.2)' }}>
                     {selectedCountry?.name}

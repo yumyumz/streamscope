@@ -195,8 +195,8 @@ export default function ServicesPage() {
         <a href="/" className="flex items-center gap-2.5 shrink-0">
           <div className="w-7 h-7 rounded-lg flex items-center justify-center text-sm"
             style={{ background: 'linear-gradient(135deg, #e63946, #c1121f)' }}>📡</div>
-          <span className="text-lg font-bold" style={{ fontFamily: 'Georgia, serif', letterSpacing: '-0.03em' }}>
-            Stream<span style={{ color: '#e63946' }}>Scope</span>
+          <span className="text-xl tracking-wide" style={{ fontFamily: 'var(--font-bebas)' }}>
+            STREAM<span style={{ color: '#e63946' }}>SCOPE</span>
           </span>
         </a>
         <nav className="flex items-center gap-1 ml-4">
@@ -212,7 +212,7 @@ export default function ServicesPage() {
         {mode === 'grid' && (
           <>
             <div className="mb-8 pt-6">
-              <h1 className="text-3xl font-bold mb-2" style={{ fontFamily: 'Georgia, serif' }}>Browse by Service</h1>
+              <h1 className="text-3xl font-bold mb-2" style={{ fontFamily: 'var(--font-playfair)' }}>Browse by Service</h1>
               <p className="text-sm" style={{ color: 'rgba(255,255,255,0.4)' }}>Pick a streaming platform to explore its catalog</p>
             </div>
             <div className="flex items-center gap-2 mb-8">
@@ -264,7 +264,7 @@ export default function ServicesPage() {
                 </button>
                 <div className="flex items-center gap-2">
                   <span className="text-2xl">{selectedService.emoji}</span>
-                  <h1 className="text-2xl font-bold" style={{ fontFamily: 'Georgia, serif' }}>{selectedService.name}</h1>
+                  <h1 className="text-2xl font-bold" style={{ fontFamily: 'var(--font-playfair)' }}>{selectedService.name}</h1>
                 </div>
               </div>
               <div className="flex items-center gap-3">
@@ -340,7 +340,7 @@ export default function ServicesPage() {
               </button>
               <div className="flex items-center gap-2.5">
                 <span className="text-2xl">🌍</span>
-                <h1 className="text-2xl font-bold" style={{ fontFamily: 'Georgia, serif' }}>Watch Together</h1>
+                <h1 className="text-2xl font-bold" style={{ fontFamily: 'var(--font-playfair)' }}>Watch Together</h1>
               </div>
             </div>
             <p className="text-sm mb-8" style={{ color: 'rgba(255,255,255,0.4)', maxWidth: '480px' }}>
